@@ -1,0 +1,44 @@
+# Datasets
+data/
+/data
+
+# Dependencies and virtual environments
+frontend/node_modules/
+node_modules/
+venv/
+.venv/
+env/
+
+# Python cache & compiled binaries
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local environments, tokens, and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local databases, logs, and diagnostic captures
+*.db
+*.sqlite
+*.sqlite3
+backend/signspeak.db
+debug/
+*.log
+
+# Generated frontend output & build caches
+frontend/.next/
+frontend/out/
+frontend/tsconfig.tsbuildinfo
+.next/
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
